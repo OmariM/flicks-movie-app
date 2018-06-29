@@ -43,6 +43,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         View movieView = inflater.inflate(R.layout.item_movie, parent, false);
         // return a new Viewholder
         return new ViewHolder(movieView);
+        // initialize the request options
     }
 
     // binds an inflated view to a new item
